@@ -1,0 +1,12 @@
+[Unit]
+Description=LED-Matrix
+After=multi-user.target
+
+[Service]
+Type=idle
+User=pi
+WorkingDirectory=/opt/matrix
+ExecStart=/usr/bin/python /opt/ledmatrix/ledmatrix.py
+
+[Install]
+WantedBy=multi-user.target

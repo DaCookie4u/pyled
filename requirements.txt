@@ -1,0 +1,4 @@
+pySerial
+configparser
+numpy
+pillow

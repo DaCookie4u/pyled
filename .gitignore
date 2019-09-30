@@ -1,0 +1,9 @@
+*.pyc
+__pycache__
+dummy.txt
+
+# virtualenv
+pip-selfcheck.json
+/bin
+/include
+/lib
